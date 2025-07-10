@@ -4,8 +4,8 @@ import '../App.css';
 function Headline2({ q3Views }) {
   return (
     <div className="headline-container">
-      <h1 className="headline">
-        Quarterly Goals <span className="gradient-text">growth</span> {q3Views}<br />
+      <h1 className="headline-sub">
+        July to September  <span className="gradient-text">VIEWS</span> {q3Views}<br />
         {/* <span className="gradient-text">100% ROI.</span> */}
         
       </h1>

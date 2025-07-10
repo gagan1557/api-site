@@ -12,9 +12,11 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "concurrently \"npm run start-react\" \"npm run start-q3views\"",
+    "start": "concurrently \"npm run start-react\" \"npm run start-q3views\" \"npm run start-views_c\" ",
     "start-react": "react-scripts start",
     "start-q3views": "node getQ3Views.js",
+    "start-views_c": "node views_c.js",
+
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
